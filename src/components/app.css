@@ -1,0 +1,313 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color:rgb(235, 193, 86);
+   
+  }
+  h2,
+  h1 {
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    height: 50px;
+    width: 100vw;
+   
+   
+  }
+  div{
+    
+     justify-content: center;  
+  }
+  button {
+  
+    background-color: rgb(118, 118, 160);
+    width: 20vw;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+ color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+   padding: 0%;
+   margin: 30px;
+   
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: black;
+   
+  }
+  .fgtbtn{
+    width: 20vw ;
+  }
+  .main{
+    margin: 50px;
+  }
+  .logbtn{
+    background-color: rgb(118, 118, 160);
+    color: white;
+   
+  }
+
+  .btn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+
+  button:hover {
+    background-color: salmon;
+  }
+  
+  input {
+   
+
+    width: 56vw;
+    height: 50px;
+    padding: 12px;
+  
+    box-sizing: border-box;
+    border-bottom: 3px solid #555;
+    
+    outline: none;
+    cursor: pointer;
+
+  }
+
+  input:focus {
+    background-color:rgb(235, 193, 86);
+  }
+
+
+  p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(10, 9, 9);
+    margin: 3px;
+    width: 30vw;
+    height: 50px ;
+   background-color: #555;
+    color: aqua;
+
+  }
+  .dlt{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(228, 59, 59);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    /* font-size: x-large; */
+    font-size: 25px;
+  }
+  .edtpls,.edt,.edtminus{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    background-color: darkcyan;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  
+    
+  }
+  .edtminus{
+    background-color: crimson;
+  }
+ 
+  img{
+    width: 5vw;
+    height: 50px;
+  }
+  .fgt{
+    color: blue;
+    cursor: pointer;
+  }
+  label{
+    margin-top: 30px;
+  }
+  .todobtn{
+    box-sizing: border-box;
+    display: flex;
+    width: 55px;
+    height: 50px;
+    background-color: darkcyan;
+    margin-bottom: 41px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #555;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+   
+    
+  }
+  .date{
+    margin-right: 63vw;
+    color:rgb(76, 17, 214)
+  }
+  .todoinpt{
+    width:33vw;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .iconcont{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+  }
+  .icon{
+    height: 40px;
+    width: 40px;
+  }
+  .todoitem{
+    width: 50vw;
+    height:50px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(118, 126, 105);
+  }
+  .labell{
+    width: 55vw;
+    display: flex;
+  align-items: flex-start;
+    justify-content: space-between;
+  }
+  .todoinpt{
+    width: 54vw;
+  }
+  .todoitem{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  margin-top: 5px;
+    
+  }
+  .loginput{
+    width: 50vw;
+    text-align: center;
+  }
+  @media screen and (max-width: 1000px) and (min-width:800px) {
+    * {
+      font-size: 20px;
+    }
+    .dlt,.edt{
+      width: 50px;
+      height: 50pxx;
+    }
+    .todoinpt{
+      width: 67vw;
+    }
+    .todoitem{
+      width: 62vw;
+    }
+    .loginput{
+      width: 62vw;
+    }
+    .labell{
+      width: 70vw;
+    }
+  }
+
+@media screen and (max-width: 800px) and (min-width:600px){
+
+  .fgt{
+    font-size: 15px;
+    color: blue;
+    cursor: pointer;
+  }
+
+  button{
+    width: 50;
+  }
+  .fgtbtn{
+ 
+    width:25vw;
+  }
+  .labell{
+    width: 80vw;
+  }
+  .todoinpt{
+    width: 85vw;
+  }
+  .todoitem{
+    width: 78vw;
+  }
+  .loginput{
+    width: 70vw;
+  }
+
+
+}
+@media screen and (max-width: 424px) {
+  button{
+    width: 50vw;
+  }
+
+  .fgtbtn{
+    font-size: 12px;
+    font-weight:b50px;
+    width:30vw;
+  }
+}
+@media screen and (max-width: 292px){
+
+  .btn{
+    flex-wrap: wrap;
+  }
+  .date{
+    margin-right: 58vw;
+   
+  }
+}
+@media screen and (max-width: 325px){
+       .date{
+        margin-right: 60vw;
+       
+      }
+
+}
+@media screen and (max-width: 600px) and (min-width:400px) {
+ .todoinpt{
+  width: 86vw;
+}
+.todoitem{
+  width: 80vw;
+}
+.loginput{
+  width: 80vw;
+}
+
+}
+@media screen and (max-width: 400px) and (min-width:200px) {
+  .todoinpt{
+   width: 77vw;
+ }
+ .todoitem{
+   width: 80vw;
+ }
+ .loginput{
+  width: 90vw;
+}
+ 
+ }
